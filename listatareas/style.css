@@ -1,0 +1,41 @@
+.principal{
+    margin-top: 25px;
+}
+.contenedor{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.color{
+    cursor: pointer;
+    border: black 1PX solid;
+    width: 50px;
+    height: 50px;  
+}
+.rojo{
+    background-color: red;
+}
+.azul{
+    background-color: blue;
+}
+.amarillo{
+    background-color: yellow;
+}
+.err{
+  
+    width: 60%;
+    margin: 25px auto;
+    background-color: red;
+    color: white;
+}
+
+.tarea{
+    margin:5px auto;
+    width: 85%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: solid 2px black;
+}
